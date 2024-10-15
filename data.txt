@@ -14,7 +14,6 @@ Network 12 (IITR_WIFI_HIGHSPEED) : WPA2
 Network 13 (Bedroom speaker.o,) : Unknown
 --------------------------------------
 Connected devices:
-IP: 10.81.0.1, MAC: 00:00:5e:00:01:51
 IP: 10.81.0.2, MAC: 00:be:75:f2:8b:3f
 IP: 10.81.0.3, MAC: 00:be:75:f2:94:ff
 IP: 10.81.0.12, MAC: 76:1c:c8:c3:70:04
