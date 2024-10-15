@@ -1,0 +1,23 @@
+Network 1 (IITR_WIFI_HIGHSPEED) : WPA2: Recommendation: Use Safer WPA3 encryption
+
+Network 2 (IITR_WIFI_HIGHSPEED) : WPA2: Recommendation: Use Safer WPA3 encryption
+
+Network 3 (IITR_WIFI_HIGHSPEED) : WPA2: Recommendation: Use Safer WPA3 encryption
+
+Network 4 (IITR_WIFI_HIGHSPEED) : WPA2: Recommendation: Use Safer WPA3 encryption
+
+Network 5 (IITR_WIFI_HIGHSPEED) : WPA2: Recommendation: Use Safer WPA3 encryption
+
+Network 6 (IITR_WIFI_HIGHSPEED) : WPA2: Recommendation: Use Safer WPA3 encryption
+
+Network 7 (Moto G (5S) Plus 1725) : WPA3
+
+Network 8 (IITR_WIFI_HIGHSPEED) : WPA2: Recommendation: Use Safer WPA3 encryption
+
+Network 9 (IITR_WIFI_HIGHSPEED) : WPA2: Recommendation: Use Safer WPA3 encryption
+
+Network 10 (IITR_WIFI_HIGHSPEED) : WPA2: Recommendation: Use Safer WPA3 encryption
+
+Network 11 (Bedroom speaker.o,) : WPA3
+
+Network 12 (IITR_WIFI_HIGHSPEED) : WPA2: Recommendation: Use Safer WPA3 encryption

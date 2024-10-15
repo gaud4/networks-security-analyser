@@ -1,0 +1,21 @@
+
+Open ports:
+Nmap scan report for 0.0.0.0
+Host is up (0.000038s latency).
+Not shown: 65524 closed tcp ports (conn-refused)
+PORT      STATE SERVICE
+22/tcp    open  ssh
+5355/tcp  open  llmnr
+27121/tcp open  unknown
+34959/tcp open  unknown
+39227/tcp open  unknown
+39581/tcp open  unknown
+45135/tcp open  unknown
+46721/tcp open  unknown
+46831/tcp open  unknown
+49918/tcp open  unknown
+56262/tcp open  unknown
+
+
+
+Weak Password: Found in common Passwords list. (Moto G (5S) Plus 1725)

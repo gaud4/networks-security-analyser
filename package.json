@@ -4,12 +4,15 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-      "start": "electron ."
+    "start": "electron ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "electron": "^32.2.0"
+  },
+  "dependencies": {
+    "sudo-prompt": "^9.2.1"
   }
 }

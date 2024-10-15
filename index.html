@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>My Electron App</title>
+    <title>Mini Proj</title>
     <style>
         /* General Styling */
         body {
@@ -10,10 +11,12 @@
             padding: 20px;
             transition: background-color 0.3s, color 0.3s;
         }
+
         h1 {
             font-size: 24px;
             margin-bottom: 20px;
         }
+
         /* Loading and Progress Bar Styling */
         #loading {
             display: none;
@@ -21,6 +24,7 @@
             color: #888;
             margin: 10px 0;
         }
+
         #progress {
             width: 80%;
             height: 15px;
@@ -30,6 +34,7 @@
             overflow: hidden;
             box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
         }
+
         #progress-bar {
             height: 100%;
             width: 0%;
@@ -38,12 +43,14 @@
             transition: width 0.3s ease;
             box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
         }
+
         /* Output Container Styling */
         #output-container {
             display: flex;
             justify-content: space-around;
             margin-top: 20px;
         }
+
         .output-column {
             width: 30%;
             padding: 15px;
@@ -53,8 +60,9 @@
             overflow-wrap: break-word;
             transition: background-color 0.3s, color 0.3s;
         }
+
         /* Button Styling */
-        #runButton, #darkModeButton {
+        #runButton, #darkModeButton, #networkButton {
             padding: 10px 20px;
             font-size: 16px;
             border: none;
@@ -66,40 +74,47 @@
             margin: 5px;
             transition: background-color 0.3s ease;
         }
-        #runButton:hover, #darkModeButton:hover {
+        #runButton:hover, #darkModeButton:hover, #networkButton:hover {
             background-color: #45a049;
         }
         /* Dark Mode Styling */
         body.dark {
             background-color: #1e1e1e;
-            color: #f0f0f0; 
+            color: #f0f0f0;
         }
+
         .dark .output-column {
             background-color: #333;
             color: #f0f0f0;
         }
+
         .dark #progress {
             background-color: #555;
         }
-        .dark #runButton, .dark #darkModeButton {
+
+        .dark #runButton,
+        .dark #darkModeButton {
             background-color: #6fcf97;
             color: #000;
         }
     </style>
 </head>
+
 <body>
-    <h1>Computer Networks</h1>
-    <button id="runButton">Run Process</button>
-    <button id="darkModeButton">Dark Mode</button>
-    <div id="loading">Loading... Please wait.</div>
-    <div id="progress">
-        <div id="progress-bar"></div>
-    </div>
-    <div id="output-container">
-        <div id="column1" class="output-column"></div>
-        <div id="column2" class="output-column"></div>
-        <div id="column3" class="output-column"></div>
-    </div>
+<h1>Computer Networks</h1>
+<button id="runButton">Run Process</button>
+<button id="darkModeButton">Dark Mode</button>
+<button id="networkButton">Open Network Monitor</button>
+<div id="loading">Loading... Please wait.</div>
+<div id="progress">
+    <div id="progress-bar"></div>
+</div>
+<div id="output-container">
+    <div id="column1" class="output-column"></div>
+    <div id="column2" class="output-column"></div>
+    <div id="column3" class="output-column"></div>
+</div>
+
 
     <script>
         const { ipcRenderer } = require('electron');
@@ -126,13 +141,18 @@
                 progressBar.style.width = progress + '%';
             });
 
-            ipcRenderer.on('task-completed', (event, result) => {
-                loading.style.display = 'none';
+            ipcRenderer.on('task-completed1', (event, result) => {
+                loading.style.display = 'block';
+                column1.innerHTML = result ? result.split('\n').join('<br>') : 'No data';
+            });
 
-                // Split each section by newline and join with <br> for line breaks
-                column1.innerHTML = result[0] ? result[0].split('\n').join('<br>') : 'No data';
-                column2.innerHTML = result[1] ? result[1].split('\n').join('<br>') : 'No data';
-                column3.innerHTML = result[2] ? result[2].split('\n').join('<br>') : 'No data';
+            ipcRenderer.on('task-completed2', (event, result) => {
+                column2.innerHTML = result ? result.split('\n').join('<br>') : 'No data';
+            });
+
+            ipcRenderer.on('task-completed3', (event, result) => {
+                column3.innerHTML = result ? result.split('\n').join('<br>') : 'No data';
+                loading.style.display = 'none'; // Hide loading after all tasks are complete
             });
         });
 
@@ -140,6 +160,11 @@
         darkModeButton.addEventListener('click', () => {
             document.body.classList.toggle('dark');
         });
+
+        document.getElementById('networkButton').addEventListener('click', () => {
+                ipcRenderer.send('open-network-window');
+        });
     </script>
 </body>
+
 </html>
