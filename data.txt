@@ -1,0 +1,61 @@
+
+Network 1 (IITR_WIFI_HIGHSPEED) : WPA2
+Network 2 (IITR_WIFI_HIGHSPEED) : WPA2
+Network 3 (IITR_WIFI_HIGHSPEED) : WPA2
+Network 4 (IITR_WIFI_HIGHSPEED) : WPA2
+Network 5 (IITR_WIFI_HIGHSPEED) : WPA2
+Network 6 (IITR_WIFI_HIGHSPEED) : WPA2
+Network 7 (IITR_WIFI_HIGHSPEED) : WPA2
+Network 8 (eduroam) : WPA2
+Network 9 (IITR_WIFI_HIGHSPEED) : WPA2
+Network 10 (IITR_WIFI_HIGHSPEED) : WPA2
+Network 11 (IITR_WIFI_HIGHSPEED) : WPA2
+Network 12 (IITR_WIFI_HIGHSPEED) : WPA2
+Network 13 (Bedroom speaker.o,) : Unknown
+--------------------------------------
+Connected devices:
+IP: 10.81.0.1, MAC: 00:00:5e:00:01:51
+IP: 10.81.0.2, MAC: 00:be:75:f2:8b:3f
+IP: 10.81.0.3, MAC: 00:be:75:f2:94:ff
+IP: 10.81.0.12, MAC: 76:1c:c8:c3:70:04
+IP: 10.81.0.22, MAC: ea:24:6c:07:ea:34
+IP: 10.81.0.38, MAC: b8:1e:a4:da:1e:4d
+IP: 10.81.0.46, MAC: cc:6b:1e:9a:00:49
+IP: 10.81.0.61, MAC: 86:e3:eb:63:d2:08
+IP: 10.81.0.72, MAC: 64:49:7d:61:d6:09
+IP: 10.81.0.78, MAC: b4:b5:b6:f3:0b:83
+IP: 10.81.0.96, MAC: e6:80:72:f3:0a:5f
+IP: 10.81.0.33, MAC: 1e:95:37:01:af:76
+IP: 10.81.0.69, MAC: f4:30:8b:6d:f3:d5
+IP: 10.81.0.56, MAC: 74:04:f1:dd:c6:e7
+IP: 10.81.0.20, MAC: 4a:41:4e:6f:b8:d1
+IP: 10.81.0.58, MAC: e2:c3:b7:7e:b4:41
+IP: 10.81.0.25, MAC: 4a:21:74:91:98:b2
+IP: 10.81.0.80, MAC: 06:d4:8d:e1:b6:4b
+IP: 10.81.0.97, MAC: 72:ee:27:23:de:3a
+IP: 10.81.0.14, MAC: c4:23:60:b1:30:82
+IP: 10.81.0.49, MAC: 42:92:0f:88:f2:cf
+IP: 10.81.0.29, MAC: 3a:95:f1:ca:b9:da
+IP: 10.81.0.43, MAC: f6:1c:31:6d:6f:86
+IP: 10.81.0.89, MAC: de:ba:9a:86:78:8c
+IP: 10.81.0.16, MAC: 5a:9d:01:3b:31:b2
+IP: 10.81.0.59, MAC: 2c:fe:4f:cd:8c:dd
+IP: 10.81.0.83, MAC: be:c1:3a:70:3e:9b
+IP: 10.81.0.40, MAC: 02:8b:e6:2f:43:33
+IP: 10.81.0.99, MAC: 72:17:cf:d1:f1:26
+IP: 10.81.0.55, MAC: 2e:bf:6e:41:4f:ee
+IP: 10.81.0.86, MAC: 06:90:31:03:b3:ca
+IP: 10.81.0.24, MAC: ce:7a:00:a5:ba:5e
+IP: 10.81.0.39, MAC: ae:8f:78:ab:0c:ee
+IP: 10.81.0.44, MAC: 06:0e:a9:c9:33:9b
+IP: 10.81.0.13, MAC: ba:db:f6:e4:dc:01
+IP: 10.81.0.53, MAC: 76:78:3c:ae:34:0f
+IP: 10.81.0.95, MAC: 4a:a2:5b:75:fe:bd
+IP: 10.81.0.30, MAC: de:a1:f5:1c:68:23
+IP: 10.81.0.81, MAC: 92:bd:1f:18:c8:8d
+IP: 10.81.0.18, MAC: 52:94:0f:16:6e:8a
+IP: 10.81.0.91, MAC: 4e:0e:68:d5:22:d6
+IP: 10.81.0.36, MAC: fe:8c:b7:43:c5:7c
+--------------------------------------
+Open ports:
+Open ports on 10.81.0.36: 22, 5355, 27121
